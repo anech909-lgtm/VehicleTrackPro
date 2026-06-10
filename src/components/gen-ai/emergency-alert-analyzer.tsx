@@ -31,12 +31,12 @@ export function EmergencyAlertAnalyzer({
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const [analysisResult, setAnalysisResult] = useState<EmergencyAlert['analysis']>(null);
+  const [analysisResult, setAnalysisResult] = useState<EmergencyAlert['analysis']>(undefined);
   const { toast } = useToast();
 
   const onAnalyze = async () => {
     setIsLoading(true);
-    setAnalysisResult(null);
+    setAnalysisResult(undefined);
     try {
       const result = await handleAnalyzeAlert({
         alertDetails: alert.details,

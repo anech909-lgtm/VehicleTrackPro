@@ -99,6 +99,7 @@ export type AddEmergencyAlert = Omit<EmergencyAlert, 'id'>;
 
 export type Report = {
   id: string;
+  title: string;
   type: "Usage" | "History" | "Activity" | "Alerts" | "Maintenance";
   generatedBy: string; // userId
   filters: Record<string, any>;

@@ -64,7 +64,7 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
     }
     
     if (replacements) {
-        return Object.entries(replacements).reduce((acc, [placeholder, replacementValue]) => {
+        return Object.entries(replacements).reduce((acc: string, [placeholder, replacementValue]) => {
             return acc.replace(`{${placeholder}}`, String(replacementValue));
         }, value);
     }

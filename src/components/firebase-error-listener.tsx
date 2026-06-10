@@ -9,7 +9,7 @@ export function FirebaseErrorListener() {
   const { toast } = useToast();
 
   useEffect(() => {
-    const handleError = (error: FirestorePermissionError) => {
+    const handleError = (error: Error) => {
       console.error(error); // Also log to console for dev visibility
 
       toast({

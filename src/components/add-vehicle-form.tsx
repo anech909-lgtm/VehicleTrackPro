@@ -108,7 +108,7 @@ export function AddVehicleForm({ db, setOpen, vehicle }: AddVehicleFormProps) {
             description: t('addVehicle.toast.updateDescription', { make: vehicleData.make, model: vehicleData.model }),
         });
         } else {
-            const newVehicle = {
+            const newVehicle: Omit<Vehicle, 'id' | 'createdAt'> = {
                 ...vehicleData,
                 status: 'Idle',
                 location: { lat: 0, lng: 0 },
