@@ -219,24 +219,7 @@ export function VehicleActions({ vehicle }: { vehicle: Vehicle }) {
                 />
               </div>
 
-              <div className="w-full grid grid-cols-2 gap-y-2 text-sm mt-2 px-2">
-                <div>
-                  <p className="text-xs text-gray-400 uppercase font-semibold">Make & Model</p>
-                  <p className="font-bold text-gray-800">{vehicle.make} {vehicle.model}</p>
-                </div>
-                <div>
-                  <p className="text-xs text-gray-400 uppercase font-semibold">Year</p>
-                  <p className="font-bold text-gray-800">{vehicle.year}</p>
-                </div>
-                <div>
-                  <p className="text-xs text-gray-400 uppercase font-semibold">License Plate</p>
-                  <p className="font-bold text-gray-800 font-code">{vehicle.plateNumber}</p>
-                </div>
-                <div>
-                  <p className="text-xs text-gray-400 uppercase font-semibold">Driver</p>
-                  <p className="font-bold text-gray-800">{vehicle.driverId || 'Unassigned'}</p>
-                </div>
-              </div>
+
             </div>
 
             <p className="text-xs text-muted-foreground text-center px-4">
