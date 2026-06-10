@@ -1,0 +1,410 @@
+
+{
+  "sidebar": {
+    "appTitle": "VehicleTrack Pro",
+    "dashboard": "Dashboard",
+    "drivers": "Drivers",
+    "vehicles": "Vehicles",
+    "tracking": "Tracking",
+    "reports": "Reports",
+    "emergency": "Emergency",
+    "settings": "Settings"
+  },
+  "pageTitles": {
+    "dashboard": "Dashboard",
+    "drivers": "Driver Management",
+    "vehicles": "Vehicle Registration",
+    "tracking": "Real-time Location Tracking",
+    "reports": "Report Generation",
+    "emergency": "Emergency Alerts",
+    "settings": "Settings"
+  },
+  "userNav": {
+    "profile": "Profile",
+    "settings": "Settings",
+    "logOut": "Log out"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": "Welcome to your VehicleTrack Pro dashboard.",
+    "totalVehicles": {
+      "title": "Total Vehicles",
+      "description": "Across your entire fleet"
+    },
+    "driversOnline": {
+      "title": "Drivers Online",
+      "description": "{percentage}% of total drivers"
+    },
+    "activeAlerts": {
+      "title": "Active Alerts",
+      "description": "Require immediate attention"
+    },
+    "fleetActivity": {
+      "title": "Fleet Activity",
+      "description": "Percentage of vehicles moving"
+    },
+    "recentAlerts": {
+      "title": "Recent Emergency Alerts",
+      "vehicle": "Vehicle",
+      "time": "Time",
+      "priority": "Priority",
+      "action": "Action",
+      "noAlerts": "No recent alerts"
+    },
+    "vehicleStatus": {
+      "title": "Vehicle Status",
+      "moving": "Moving",
+      "idle": "Idle",
+      "emergency": "Emergency",
+      "noData": "No vehicle data available."
+    }
+  },
+  "drivers": {
+    "title": "Driver Management",
+    "description": "Securely manage driver profiles and access control.",
+    "online": "Online",
+    "offline": "Offline",
+    "addNewDriver": "Add New Driver",
+    "addDriverDescription": "Fill in the details below to register a new driver.",
+    "noDriversFound": "No drivers found.",
+    "table": {
+      "driver": "Driver",
+      "status": "Status",
+      "assignedVehicle": "Assigned Vehicle",
+      "actions": "Actions"
+    },
+    "status": {
+      "online": "Online",
+      "offline": "Offline"
+    }
+  },
+  "vehicles": {
+    "title": "Vehicle Registration",
+    "description": "Register and manage vehicles with necessary details and documentation.",
+    "tabs": {
+      "moving": "Moving",
+      "idle": "Idle",
+      "emergency": "Emergency"
+    },
+    "addNewVehicle": "Add New Vehicle",
+    "addVehicleDescription": "Fill in the details below to register a new vehicle in the fleet.",
+    "table": {
+      "vehicle": "Vehicle",
+      "status": "Status",
+      "assignedDriver": "Assigned Driver",
+      "licensePlate": "License Plate",
+      "actions": "Actions"
+    },
+    "noVehiclesFound": "No vehicles found."
+  },
+  "tracking": {
+    "title": "Real-time Location Tracking",
+    "description": "Live vehicle tracking with interactive map.",
+    "vehiclesTitle": "Vehicles",
+    "table": {
+      "vehicle": "Vehicle",
+      "status": "Status"
+    },
+    "mapAlt": "Map of vehicles"
+  },
+  "reports": {
+    "title": "Report Generation",
+    "description": "Generate and export reports on vehicle usage, location history, and driver activity.",
+    "table": {
+      "title": "Report Title",
+      "type": "Type",
+      "dateGenerated": "Date Generated",
+      "actions": "Actions"
+    },
+    "types": {
+      "usage": "Usage",
+      "history": "History",
+      "activity": "Activity",
+      "alerts": "Alerts",
+      "maintenance": "Maintenance"
+    },
+    "headers": {
+      "id": "ID",
+      "make": "Make",
+      "model": "Model",
+      "driverId": "Driver ID",
+      "status": "Status",
+      "name": "Name",
+      "tripsCompleted": "Trips Completed",
+      "performanceScore": "Performance Score",
+      "vehicleId": "Vehicle ID",
+      "timestamp": "Timestamp",
+      "priority": "Priority",
+      "details": "Details"
+    }
+  },
+  "emergency": {
+    "title": "Emergency Alerts Center",
+    "description": "Monitor and respond to critical vehicle alerts.",
+    "addNewAlert": "Add New Alert",
+    "addAlertDescription": "Manually create a new emergency alert.",
+    "aiAnalysis": {
+      "title": "AI Analysis Results",
+      "suggestedActions": "SUGGESTED ACTIONS",
+      "reasoning": "REASONING"
+    },
+    "aiAnalyzer": {
+      "buttonText": "Analyze with AI",
+      "title": "Analyze Emergency Alert",
+      "description": "Use GenAI to assess the situation and recommend actions for alert {id}.",
+      "incomingDetails": "Incoming Alert Details",
+      "vehicle": "Vehicle",
+      "driver": "Driver",
+      "location": "Location",
+      "analysisComplete": "AI Analysis Complete",
+      "priority": "PRIORITY",
+      "suggestedActions": "SUGGESTED ACTIONS",
+      "reasoning": "REASONING",
+      "analyzing": "Analyzing...",
+      "runAnalysis": "Run AI Analysis",
+      "toast": {
+        "analysisFailed": {
+          "title": "Analysis Failed",
+          "description": "Could not get a response from the AI model."
+        }
+      }
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Manage your account settings, preferences, and security.",
+    "profile": {
+      "title": "My Profile",
+      "description": "Update your personal information here.",
+      "displayName": "Display Name",
+      "displayNamePlaceholder": "Your Name",
+      "emailPlaceholder": "your@email.com",
+      "emailDescription": "This is the email address you use to log in.",
+      "toast": {
+        "title": "Profile Updated",
+        "description": "Your profile information has been successfully updated."
+      },
+      "validation": {
+        "displayNameMin": "Display name must be at least 2 characters.",
+        "emailInvalid": "Please enter a valid email address."
+      }
+    },
+    "language": {
+      "title": "Language & Region",
+      "description": "Set your preferred language and operational zone.",
+      "preferredLanguage": "Preferred Language",
+      "selectPlaceholder": "Select a language",
+      "zoneId": "Zone ID",
+      "zoneIdDescription": "This is the geographical or operational zone you belong to.",
+      "saveButton": "Save Preferences",
+      "toast": {
+        "title": "Preferences Saved",
+        "description": "Your language and region settings have been saved."
+      }
+    },
+    "security": {
+      "title": "Security",
+      "description": "Manage your account security settings.",
+      "mfaLabel": "Multi-Factor Authentication (MFA)",
+      "mfaDescription": "Require a second form of verification to protect your account.",
+      "mfaAriaLabel": "Toggle MFA",
+      "saveButton": "Save Security Settings",
+      "toast": {
+        "title": "Security Settings Updated",
+        "description": "Your security preferences have been successfully saved."
+      }
+    }
+  },
+  "addDriver": {
+    "form": {
+        "fullName": {
+            "label": "Full Name",
+            "placeholder": "e.g. John Doe"
+        },
+        "email": {
+            "label": "Email Address",
+            "placeholder": "e.g. john.doe@example.com"
+        },
+        "phone": {
+            "label": "Phone Number",
+            "placeholder": "e.g. (123) 456-7890"
+        },
+        "sector": {
+            "label": "Sector (Optional)",
+            "placeholder": "e.g. North-East"
+        },
+        "submit": "Add Driver"
+    },
+    "toast": {
+        "title": "Driver Added",
+        "description": "{name} has been successfully registered."
+    },
+    "validation": {
+        "nameRequired": "Name is required.",
+        "emailInvalid": "Invalid email address.",
+        "phoneRequired": "Phone number is required."
+    }
+  },
+  "addEmergencyAlert": {
+    "form": {
+      "vehicle": {
+        "label": "Vehicle",
+        "placeholder": "Select a vehicle"
+      },
+      "driver": {
+        "label": "Driver",
+        "placeholder": "Select a driver"
+      },
+      "latitude": {
+        "label": "Latitude",
+        "placeholder": "e.g. 40.7128"
+      },
+      "longitude": {
+        "label": "Longitude",
+        "placeholder": "e.g. -74.0060"
+      },
+      "details": {
+        "label": "Alert Details",
+        "placeholder": "Describe the emergency situation..."
+      },
+      "priority": {
+        "label": "Priority",
+        "placeholder": "Set priority"
+      },
+      "submit": "Submit Alert"
+    },
+    "toast": {
+      "title": "Emergency Alert Added",
+      "description": "The new emergency alert has been successfully logged."
+    },
+    "validation": {
+      "vehicleRequired": "Vehicle is required.",
+      "driverRequired": "Driver is required.",
+      "detailsMin": "Details must be at least 10 characters."
+    }
+  },
+  "addVehicle": {
+    "form": {
+      "make": { "label": "Make", "placeholder": "e.g. Toyota" },
+      "model": { "label": "Model", "placeholder": "e.g. Camry" },
+      "year": { "label": "Year", "placeholder": "e.g. 2023" },
+      "plate": { "label": "License Plate Number", "placeholder": "e.g. AB 123 CD" },
+      "chassis": { "label": "Chassis Number (VIN)", "placeholder": "Enter vehicle identification number" },
+      "insurance": {
+        "title": "Insurance Details",
+        "provider": { "label": "Provider", "placeholder": "e.g. Allstate" },
+        "policyNo": { "label": "Policy Number", "placeholder": "e.g. XYZ123456" },
+        "expiresAt": { "label": "Expiry Date", "placeholder": "Pick a date" }
+      },
+      "submit": "Add Vehicle"
+    },
+    "toast": {
+      "addTitle": "Vehicle Added",
+      "addDescription": "{make} {model} has been successfully registered.",
+      "updateTitle": "Vehicle Updated",
+      "updateDescription": "{make} {model} has been successfully updated."
+    },
+    "validation": {
+        "makeRequired": "Make is required.",
+        "modelRequired": "Model is required.",
+        "yearInvalid": "Invalid year.",
+        "plateRequired": "Plate number is required.",
+        "chassisRequired": "Chassis number is required.",
+        "insuranceProviderRequired": "Insurance provider is required.",
+        "policyNoRequired": "Policy number is required.",
+        "expiryDateRequired": "Expiry date is required."
+    }
+  },
+  "driverActions": {
+    "toggleMenu": "Toggle menu",
+    "viewProfile": "View Profile",
+    "message": "Message",
+    "driverId": "Driver ID",
+    "phone": "Phone",
+    "performance": "Performance",
+    "trips": "Trips",
+    "avgSpeed": "Avg. Speed",
+    "credentials": "Credentials",
+    "expires": "Expires",
+    "editProfileTitle": "Edit Driver Profile",
+    "editProfileDescription": "Update contact information and details for {name}.",
+    "legalName": "Legal Name",
+    "emailAddress": "Email Address",
+    "phoneNumber": "Phone Number",
+    "assignedSector": "Assigned Sector",
+    "messageDriverTitle": "Message {name}",
+    "messageDriverDescription": "Compose a direct message to be sent to the driver's device.",
+    "messagePlaceholder": "Type your message here...",
+    "sendMessage": "Send Message",
+    "toast": {
+      "profileUpdated": {
+        "title": "Profile Updated",
+        "description": "{name}'s profile has been saved."
+      },
+      "messageSent": {
+        "title": "Message Sent",
+        "description": "Your message has been sent to {name}."
+      }
+    }
+  },
+  "vehicleActions": {
+    "toggleMenu": "Toggle menu",
+    "viewDetails": "View Details",
+    "uploadDocuments": "Upload Documents",
+    "detailsForLicense": "Details for license plate {plate}",
+    "status": "Status",
+    "year": "Year",
+    "chassisNumber": "Chassis Number",
+    "assignedDriver": "Assigned Driver",
+    "insuranceInfo": "Insurance Information",
+    "provider": "Provider",
+    "policyNo": "Policy Number",
+    "expiresOn": "Expires On",
+    "maintenanceHistory": "Maintenance History",
+    "editVehicleTitle": "Edit Vehicle",
+    "editVehicleDescription": "Update the details for the vehicle with license plate {plate}.",
+    "uploadDocumentsTitle": "Upload Vehicle Documents",
+    "uploadDocumentsDescription": "Upload registration, insurance, or other documents for {make} {model}.",
+    "clickToUpload": "Click to upload",
+    "orDragAndDrop": "or drag and drop",
+    "fileTypes": "PDF, PNG, JPG (MAX. 5MB)"
+  },
+  "common": {
+    "all": "All",
+    "na": "N/A",
+    "loading": "Loading",
+    "view": "View",
+    "export": "Export",
+    "saveChanges": "Save Changes",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "upload": "Upload",
+    "unassigned": "Unassigned"
+  },
+  "priorities": {
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "alertStatuses": {
+    "new": "New",
+    "analyzing": "Analyzing",
+    "resolved": "Resolved"
+  },
+  "vehicleStatuses": {
+    "moving": "Moving",
+    "idle": "Idle",
+    "emergency": "Emergency"
+  },
+  "errors": {
+    "title": "Error",
+    "dbNotConnected": {
+        "title": "Database not connected",
+        "description": "Please connect to Firebase to proceed."
+    },
+    "addDriver": "Could not add the driver. Please try again.",
+    "addAlert": "Could not add the emergency alert. Please try again.",
+    "processVehicle": "Could not process the vehicle. Please try again."
+  }
+}

@@ -1,0 +1,410 @@
+
+{
+  "sidebar": {
+    "appTitle": "برنامج تتبع المركبات الاحترافي",
+    "dashboard": "لوحة التحكم",
+    "drivers": "السائقون",
+    "vehicles": "المركبات",
+    "tracking": "التتبع",
+    "reports": "التقارير",
+    "emergency": "الطوارئ",
+    "settings": "الإعدادات"
+  },
+  "pageTitles": {
+    "dashboard": "لوحة التحكم",
+    "drivers": "إدارة السائقين",
+    "vehicles": "تسجيل المركبات",
+    "tracking": "تتبع الموقع في الوقت الفعلي",
+    "reports": "إنشاء التقارير",
+    "emergency": "تنبيهات الطوارئ",
+    "settings": "الإعدادات"
+  },
+  "userNav": {
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "logOut": "تسجيل الخروج"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "description": "مرحبًا بك في لوحة تحكم برنامج تتبع المركبات الاحترافي.",
+    "totalVehicles": {
+      "title": "إجمالي المركبات",
+      "description": "عبر أسطولك بالكامل"
+    },
+    "driversOnline": {
+      "title": "السائقون المتصلون",
+      "description": "{percentage}% من إجمالي السائقين"
+    },
+    "activeAlerts": {
+      "title": "التنبيهات النشطة",
+      "description": "تتطلب اهتمامًا فوريًا"
+    },
+    "fleetActivity": {
+      "title": "نشاط الأسطول",
+      "description": "نسبة المركبات المتحركة"
+    },
+    "recentAlerts": {
+      "title": "تنبيهات الطوارئ الأخيرة",
+      "vehicle": "المركبة",
+      "time": "الوقت",
+      "priority": "الأولوية",
+      "action": "الإجراء",
+      "noAlerts": "لا توجد تنبيهات حديثة"
+    },
+    "vehicleStatus": {
+      "title": "حالة المركبة",
+      "moving": "متحركة",
+      "idle": "خاملة",
+      "emergency": "طوارئ",
+      "noData": "لا توجد بيانات متاحة للمركبات."
+    }
+  },
+  "drivers": {
+    "title": "إدارة السائقين",
+    "description": "إدارة ملفات تعريف السائقين والتحكم في الوصول بشكل آمن.",
+    "online": "متصل",
+    "offline": "غير متصل",
+    "addNewDriver": "إضافة سائق جديد",
+    "addDriverDescription": "املأ التفاصيل أدناه لتسجيل سائق جديد.",
+    "noDriversFound": "لم يتم العثور على سائقين.",
+    "table": {
+      "driver": "السائق",
+      "status": "الحالة",
+      "assignedVehicle": "المركبة المخصصة",
+      "actions": "الإجراءات"
+    },
+    "status": {
+      "online": "متصل",
+      "offline": "غير متصل"
+    }
+  },
+  "vehicles": {
+    "title": "تسجيل المركبات",
+    "description": "تسجيل وإدارة المركبات بالتفاصيل والوثائق اللازمة.",
+    "tabs": {
+      "moving": "متحركة",
+      "idle": "خاملة",
+      "emergency": "طوارئ"
+    },
+    "addNewVehicle": "إضافة مركبة جديدة",
+    "addVehicleDescription": "املأ التفاصيل أدناه لتسجيل مركبة جديدة في الأسطول.",
+    "table": {
+      "vehicle": "المركبة",
+      "status": "الحالة",
+      "assignedDriver": "السائق المخصص",
+      "licensePlate": "لوحة الترخيص",
+      "actions": "الإجراءات"
+    },
+    "noVehiclesFound": "لم يتم العثور على مركبات."
+  },
+  "tracking": {
+    "title": "تتبع الموقع في الوقت الفعلي",
+    "description": "تتبع مباشر للمركبات مع خريطة تفاعلية.",
+    "vehiclesTitle": "المركبات",
+    "table": {
+      "vehicle": "المركبة",
+      "status": "الحالة"
+    },
+    "mapAlt": "خريطة المركبات"
+  },
+  "reports": {
+    "title": "إنشاء التقارير",
+    "description": "إنشاء وتصدير تقارير عن استخدام المركبات، وسجل المواقع، ونشاط السائقين.",
+    "table": {
+      "title": "عنوان التقرير",
+      "type": "النوع",
+      "dateGenerated": "تاريخ الإنشاء",
+      "actions": "الإجراءات"
+    },
+    "types": {
+      "usage": "استخدام",
+      "history": "سجل",
+      "activity": "نشاط",
+      "alerts": "تنبيهات",
+      "maintenance": "صيانة"
+    },
+    "headers": {
+      "id": "المعرف",
+      "make": "الصانع",
+      "model": "الطراز",
+      "driverId": "معرف السائق",
+      "status": "الحالة",
+      "name": "الاسم",
+      "tripsCompleted": "الرحلات المكتملة",
+      "performanceScore": "درجة الأداء",
+      "vehicleId": "معرف المركبة",
+      "timestamp": "الطابع الزمني",
+      "priority": "الأولوية",
+      "details": "التفاصيل"
+    }
+  },
+  "emergency": {
+    "title": "مركز تنبيهات الطوارئ",
+    "description": "مراقبة والاستجابة لتنبيهات المركبات الحرجة.",
+    "addNewAlert": "إضافة تنبيه جديد",
+    "addAlertDescription": "إنشاء تنبيه طوارئ جديد يدويًا.",
+    "aiAnalysis": {
+      "title": "نتائج تحليل الذكاء الاصطناعي",
+      "suggestedActions": "الإجراءات المقترحة",
+      "reasoning": "المنطق"
+    },
+    "aiAnalyzer": {
+        "buttonText": "تحليل باستخدام الذكاء الاصطناعي",
+        "title": "تحليل تنبيه الطوارئ",
+        "description": "استخدم الذكاء الاصطناعي لتقييم الموقف والتوصية بإجراءات للتنبيه {id}.",
+        "incomingDetails": "تفاصيل التنبيه الوارد",
+        "vehicle": "المركبة",
+        "driver": "السائق",
+        "location": "الموقع",
+        "analysisComplete": "اكتمل تحليل الذكاء الاصطناعي",
+        "priority": "الأولوية",
+        "suggestedActions": "الإجراءات المقترحة",
+        "reasoning": "المنطق",
+        "analyzing": "جار التحليل...",
+        "runAnalysis": "تشغيل تحليل الذكاء الاصطناعي",
+        "toast": {
+            "analysisFailed": {
+                "title": "فشل التحليل",
+                "description": "تعذر الحصول على استجابة من نموذج الذكاء الاصطناعي."
+            }
+        }
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "description": "إدارة إعدادات حسابك وتفضيلاتك وأمانك.",
+    "profile": {
+      "title": "ملفي الشخصي",
+      "description": "تحديث معلوماتك الشخصية هنا.",
+      "displayName": "اسم العرض",
+      "displayNamePlaceholder": "اسمك",
+      "emailPlaceholder": "your@email.com",
+      "emailDescription": "هذا هو عنوان البريد الإلكتروني الذي تستخدمه لتسجيل الدخول.",
+      "toast": {
+        "title": "تم تحديث الملف الشخصي",
+        "description": "تم تحديث معلومات ملفك الشخصي بنجاح."
+      },
+      "validation": {
+        "displayNameMin": "يجب أن يكون اسم العرض حرفين على الأقل.",
+        "emailInvalid": "الرجاء إدخال عنوان بريد إلكتروني صالح."
+      }
+    },
+    "language": {
+      "title": "اللغة والمنطقة",
+      "description": "تعيين لغتك المفضلة ومنطقة التشغيل.",
+      "preferredLanguage": "اللغة المفضلة",
+      "selectPlaceholder": "اختر لغة",
+      "zoneId": "معرف المنطقة",
+      "zoneIdDescription": "هذه هي المنطقة الجغرافية أو التشغيلية التي تنتمي إليها.",
+      "saveButton": "حفظ التفضيلات",
+      "toast": {
+        "title": "تم حفظ التفضيلات",
+        "description": "تم حفظ إعدادات اللغة والمنطقة الخاصة بك."
+      }
+    },
+    "security": {
+      "title": "الأمان",
+      "description": "إدارة إعدادات أمان حسابك.",
+      "mfaLabel": "المصادقة متعددة العوامل (MFA)",
+      "mfaDescription": "تتطلب شكلاً ثانيًا من التحقق لحماية حسابك.",
+      "mfaAriaLabel": "تبديل MFA",
+      "saveButton": "حفظ إعدادات الأمان",
+      "toast": {
+        "title": "تم تحديث إعدادات الأمان",
+        "description": "تم حفظ تفضيلات الأمان الخاصة بك بنجاح."
+      }
+    }
+  },
+  "addDriver": {
+    "form": {
+        "fullName": {
+            "label": "الاسم الكامل",
+            "placeholder": "مثال: جون دو"
+        },
+        "email": {
+            "label": "عنوان البريد الإلكتروني",
+            "placeholder": "مثال: john.doe@example.com"
+        },
+        "phone": {
+            "label": "رقم الهاتف",
+            "placeholder": "مثال: (123) 456-7890"
+        },
+        "sector": {
+            "label": "القطاع (اختياري)",
+            "placeholder": "مثال: الشمال الشرقي"
+        },
+        "submit": "إضافة سائق"
+    },
+    "toast": {
+        "title": "تمت إضافة السائق",
+        "description": "تم تسجيل {name} بنجاح."
+    },
+    "validation": {
+        "nameRequired": "الاسم مطلوب.",
+        "emailInvalid": "عنوان بريد إلكتروني غير صالح.",
+        "phoneRequired": "رقم الهاتف مطلوب."
+    }
+  },
+  "addEmergencyAlert": {
+    "form": {
+      "vehicle": {
+        "label": "المركبة",
+        "placeholder": "اختر مركبة"
+      },
+      "driver": {
+        "label": "السائق",
+        "placeholder": "اختر سائقًا"
+      },
+      "latitude": {
+        "label": "خط العرض",
+        "placeholder": "مثال: 40.7128"
+      },
+      "longitude": {
+        "label": "خط الطول",
+        "placeholder": "مثال: -74.0060"
+      },
+      "details": {
+        "label": "تفاصيل التنبيه",
+        "placeholder": "صف حالة الطوارئ..."
+      },
+      "priority": {
+        "label": "الأولوية",
+        "placeholder": "تحديد مستوى الأولوية"
+      },
+      "submit": "إرسال التنبيه"
+    },
+    "toast": {
+      "title": "تمت إضافة تنبيه الطوارئ",
+      "description": "تم تسجيل تنبيه الطوارئ الجديد بنجاح."
+    },
+    "validation": {
+      "vehicleRequired": "المركبة مطلوبة.",
+      "driverRequired": "السائق مطلوب.",
+      "detailsMin": "يجب أن تكون التفاصيل 10 أحرف على الأقل."
+    }
+  },
+  "addVehicle": {
+    "form": {
+      "make": { "label": "الصانع", "placeholder": "مثال: تويوتا" },
+      "model": { "label": "الطراز", "placeholder": "مثال: كامري" },
+      "year": { "label": "السنة", "placeholder": "مثال: 2023" },
+      "plate": { "label": "رقم لوحة الترخيص", "placeholder": "مثال: AB 123 CD" },
+      "chassis": { "label": "رقم الشاسيه (VIN)", "placeholder": "أدخل رقم تعريف المركبة" },
+      "insurance": {
+        "title": "تفاصيل التأمين",
+        "provider": { "label": "المزود", "placeholder": "مثال: Allstate" },
+        "policyNo": { "label": "رقم البوليصة", "placeholder": "مثال: XYZ123456" },
+        "expiresAt": { "label": "تاريخ انتهاء الصلاحية", "placeholder": "اختر تاريخًا" }
+      },
+      "submit": "إضافة مركبة"
+    },
+    "toast": {
+      "addTitle": "تمت إضافة المركبة",
+      "addDescription": "تم تسجيل {make} {model} بنجاح.",
+      "updateTitle": "تم تحديث المركبة",
+      "updateDescription": "تم تحديث {make} {model} بنجاح."
+    },
+    "validation": {
+        "makeRequired": "الصانع مطلوب.",
+        "modelRequired": "الطراز مطلوب.",
+        "yearInvalid": "سنة غير صالحة.",
+        "plateRequired": "رقم اللوحة مطلوب.",
+        "chassisRequired": "رقم الشاسيه مطلوب.",
+        "insuranceProviderRequired": "مزود التأمين مطلوب.",
+        "policyNoRequired": "رقم البوليصة مطلوب.",
+        "expiryDateRequired": "تاريخ انتهاء الصلاحية مطلوب."
+    }
+  },
+  "driverActions": {
+    "toggleMenu": "تبديل القائمة",
+    "viewProfile": "عرض الملف الشخصي",
+    "message": "رسالة",
+    "driverId": "معرف السائق",
+    "phone": "الهاتف",
+    "performance": "الأداء",
+    "trips": "الرحلات",
+    "avgSpeed": "متوسط السرعة",
+    "credentials": "الشهادات",
+    "expires": "تنتهي في",
+    "editProfileTitle": "تعديل ملف السائق",
+    "editProfileDescription": "تحديث معلومات الاتصال والتفاصيل لـ {name}.",
+    "legalName": "الاسم القانوني",
+    "emailAddress": "عنوان البريد الإلكتروني",
+    "phoneNumber": "رقم الهاتف",
+    "assignedSector": "القطاع المخصص",
+    "messageDriverTitle": "إرسال رسالة إلى {name}",
+    "messageDriverDescription": "اكتب رسالة مباشرة لإرسالها إلى جهاز السائق.",
+    "messagePlaceholder": "اكتب رسالتك هنا...",
+    "sendMessage": "إرسال رسالة",
+    "toast": {
+      "profileUpdated": {
+        "title": "تم تحديث الملف الشخصي",
+        "description": "تم حفظ ملف {name} الشخصي."
+      },
+      "messageSent": {
+        "title": "تم إرسال الرسالة",
+        "description": "تم إرسال رسالتك إلى {name}."
+      }
+    }
+  },
+  "vehicleActions": {
+    "toggleMenu": "تبديل القائمة",
+    "viewDetails": "عرض التفاصيل",
+    "uploadDocuments": "تحميل المستندات",
+    "detailsForLicense": "تفاصيل لوحة الترخيص {plate}",
+    "status": "الحالة",
+    "year": "السنة",
+    "chassisNumber": "رقم الشاسيه",
+    "assignedDriver": "السائق المخصص",
+    "insuranceInfo": "معلومات التأمين",
+    "provider": "المزود",
+    "policyNo": "رقم البوليصة",
+    "expiresOn": "تنتهي في",
+    "maintenanceHistory": "سجل الصيانة",
+    "editVehicleTitle": "تعديل المركبة",
+    "editVehicleDescription": "تحديث تفاصيل المركبة ذات لوحة الترخيص {plate}.",
+    "uploadDocumentsTitle": "تحميل مستندات المركبة",
+    "uploadDocumentsDescription": "تحميل مستندات التسجيل أو التأمين أو مستندات أخرى لـ {make} {model}.",
+    "clickToUpload": "انقر للتحميل",
+    "orDragAndDrop": "أو اسحب وأفلت",
+    "fileTypes": "PDF, PNG, JPG (بحد أقصى 5 ميجابايت)"
+  },
+  "common": {
+    "all": "الكل",
+    "na": "غير متاح",
+    "loading": "جار التحميل",
+    "view": "عرض",
+    "export": "تصدير",
+    "saveChanges": "حفظ التغييرات",
+    "edit": "تعديل",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "upload": "تحميل",
+    "unassigned": "غير مخصص"
+  },
+  "priorities": {
+    "high": "عالية",
+    "medium": "متوسطة",
+    "low": "منخفضة"
+  },
+  "alertStatuses": {
+    "new": "جديد",
+    "analyzing": "قيد التحليل",
+    "resolved": "تم حلها"
+  },
+  "vehicleStatuses": {
+    "moving": "متحركة",
+    "idle": "خاملة",
+    "emergency": "طوارئ"
+  },
+  "errors": {
+    "title": "خطأ",
+    "dbNotConnected": {
+        "title": "قاعدة البيانات غير متصلة",
+        "description": "يرجى الاتصال بـ Firebase للمتابعة."
+    },
+    "addDriver": "تعذر إضافة السائق. يرجى المحاولة مرة أخرى.",
+    "addAlert": "تعذر إضافة تنبيه الطوارئ. يرجى المحاولة مرة أخرى.",
+    "processVehicle": "تعذر معالجة المركبة. يرجى المحاولة مرة أخرى."
+  }
+}

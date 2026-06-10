@@ -1,0 +1,330 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "User Profile",
+      "description": "Represents a user of the application.",
+      "type": "object",
+      "properties": {
+        "displayName": {
+          "type": "string",
+          "description": "The user's display name."
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "The user's email address."
+        },
+        "phone": {
+          "type": "string",
+          "description": "The user's phone number."
+        },
+        "role": {
+          "type": "string",
+          "enum": ["driver", "manager", "admin"],
+          "description": "The user's role."
+        },
+        "preferredLanguage": {
+          "type": "string",
+          "description": "The user's preferred language."
+        },
+        "mfaEnabled": {
+          "type": "boolean",
+          "description": "Whether multi-factor authentication is enabled."
+        },
+        "zoneId": {
+          "type": "string",
+          "description": "The geographical or operational zone the user belongs to."
+        },
+        "supervisorId": {
+          "type": "string",
+          "description": "The ID of the user's supervisor."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the user profile was created."
+        }
+      },
+      "required": ["displayName", "email", "role", "createdAt"]
+    },
+    "Driver": {
+      "title": "Driver",
+      "description": "Represents a driver in the system.",
+      "type": "object",
+      "properties": {
+        "legalName": {
+          "type": "string"
+        },
+        "photoUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "contact": {
+          "type": "object",
+          "properties": {
+            "phone": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string",
+              "format": "email"
+            }
+          },
+          "required": ["phone", "email"]
+        },
+        "sector": {
+          "type": "string"
+        },
+        "supervisorId": {
+          "type": "string"
+        },
+        "credentials": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "fileUrl": {
+                "type": "string",
+                "format": "uri"
+              },
+              "expiresAt": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "required": ["type", "fileUrl"]
+          }
+        },
+        "performance": {
+          "type": "object",
+          "properties": {
+            "score": {
+              "type": "number"
+            },
+            "tripsCompleted": {
+              "type": "integer"
+            },
+            "avgSpeed": {
+              "type": "number"
+            }
+          }
+        },
+        "activeVehicleId": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["legalName", "contact", "createdAt"]
+    },
+    "Vehicle": {
+      "title": "Vehicle",
+      "description": "Represents a vehicle in the fleet.",
+      "type": "object",
+      "properties": {
+        "chassisNumber": {
+          "type": "string"
+        },
+        "plateNumber": {
+          "type": "string"
+        },
+        "make": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        },
+        "specs": {
+          "type": "object"
+        },
+        "registrationDocs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "fileUrl": {
+                "type": "string",
+                "format": "uri"
+              },
+              "type": {
+                "type": "string"
+              },
+              "expiresAt": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "required": ["fileUrl", "type"]
+          }
+        },
+        "maintenance": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "type": {
+                "type": "string"
+              },
+              "notes": {
+                "type": "string"
+              },
+              "cost": {
+                "type": "number"
+              }
+            },
+            "required": ["date", "type", "notes"]
+          }
+        },
+        "insurance": {
+          "type": "object",
+          "properties": {
+            "provider": {
+              "type": "string"
+            },
+            "policyNo": {
+              "type": "string"
+            },
+            "expiresAt": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          "required": ["provider", "policyNo", "expiresAt"]
+        }
+      },
+      "required": ["chassisNumber", "plateNumber", "make", "model", "year", "insurance"]
+    },
+    "EmergencyAlert": {
+      "title": "Emergency Alert",
+      "description": "Represents an emergency alert from a vehicle.",
+      "type": "object",
+      "properties": {
+        "vehicleId": {
+          "type": "string"
+        },
+        "driverId": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "lat": {
+              "type": "number"
+            },
+            "lng": {
+              "type": "number"
+            }
+          },
+          "required": ["lat", "lng"]
+        },
+        "details": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["New", "Analyzing", "Resolved"]
+        },
+        "priority": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+        "analysis": {
+          "type": "object",
+          "properties": {
+            "priority": {
+              "type": "string",
+              "enum": ["high", "medium", "low"]
+            },
+            "suggestedActions": {
+              "type": "string"
+            },
+            "reasoning": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": ["vehicleId", "driverId", "timestamp", "location", "details", "status", "priority"]
+    },
+    "Report": {
+      "title": "Report",
+      "description": "Represents a generated report.",
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["Usage", "History", "Activity", "Alerts", "Maintenance"]
+        },
+        "generatedBy": {
+          "type": "string"
+        },
+        "filters": {
+          "type": "object"
+        },
+        "generatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "dataSummary": {
+          "type": "object"
+        },
+        "fileUrl": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": ["type", "generatedBy", "generatedAt", "fileUrl"]
+    }
+  },
+  "auth": {
+    "providers": []
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": {
+        "$ref": "#/entities/UserProfile"
+      },
+      "description": "Stores user profile information."
+    },
+    "/drivers/{driverId}": {
+      "schema": {
+        "$ref": "#/entities/Driver"
+      },
+      "description": "Stores driver-specific information."
+    },
+    "/vehicles/{vehicleId}": {
+      "schema": {
+        "$ref": "#/entities/Vehicle"
+      },
+      "description": "Stores vehicle information."
+    },
+    "/emergencyAlerts/{alertId}": {
+      "schema": {
+        "$ref": "#/entities/EmergencyAlert"
+      },
+      "description": "Stores emergency alert data."
+    },
+    "/reports/{reportId}": {
+      "schema": {
+        "$ref": "#/entities/Report"
+      },
+      "description": "Stores generated reports."
+    }
+  }
+}

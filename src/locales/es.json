@@ -1,0 +1,410 @@
+
+{
+  "sidebar": {
+    "appTitle": "VehicleTrack Pro",
+    "dashboard": "Tablero",
+    "drivers": "Conductores",
+    "vehicles": "Vehículos",
+    "tracking": "Rastreo",
+    "reports": "Informes",
+    "emergency": "Emergencia",
+    "settings": "Configuración"
+  },
+  "pageTitles": {
+    "dashboard": "Tablero",
+    "drivers": "Gestión de Conductores",
+    "vehicles": "Registro de Vehículos",
+    "tracking": "Rastreo de Ubicación en Tiempo Real",
+    "reports": "Generación de Informes",
+    "emergency": "Alertas de Emergencia",
+    "settings": "Configuración"
+  },
+  "userNav": {
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "logOut": "Cerrar sesión"
+  },
+  "dashboard": {
+    "title": "Tablero",
+    "description": "Bienvenido a tu tablero de VehicleTrack Pro.",
+    "totalVehicles": {
+      "title": "Vehículos Totales",
+      "description": "En toda tu flota"
+    },
+    "driversOnline": {
+      "title": "Conductores en Línea",
+      "description": "{percentage}% del total de conductores"
+    },
+    "activeAlerts": {
+      "title": "Alertas Activas",
+      "description": "Requieren atención inmediata"
+    },
+    "fleetActivity": {
+      "title": "Actividad de la Flota",
+      "description": "Porcentaje de vehículos en movimiento"
+    },
+    "recentAlerts": {
+      "title": "Alertas de Emergencia Recientes",
+      "vehicle": "Vehículo",
+      "time": "Hora",
+      "priority": "Prioridad",
+      "action": "Acción",
+      "noAlerts": "No hay alertas recientes"
+    },
+    "vehicleStatus": {
+      "title": "Estado del Vehículo",
+      "moving": "En movimiento",
+      "idle": "Inactivo",
+      "emergency": "Emergencia",
+      "noData": "No hay datos de vehículos disponibles."
+    }
+  },
+  "drivers": {
+    "title": "Gestión de Conductores",
+    "description": "Gestiona de forma segura los perfiles de los conductores y el control de acceso.",
+    "online": "En línea",
+    "offline": "Desconectado",
+    "addNewDriver": "Añadir Nuevo Conductor",
+    "addDriverDescription": "Rellena los detalles a continuación para registrar un nuevo conductor.",
+    "noDriversFound": "No se encontraron conductores.",
+    "table": {
+      "driver": "Conductor",
+      "status": "Estado",
+      "assignedVehicle": "Vehículo Asignado",
+      "actions": "Acciones"
+    },
+    "status": {
+      "online": "En línea",
+      "offline": "Desconectado"
+    }
+  },
+  "vehicles": {
+    "title": "Registro de Vehículos",
+    "description": "Registra y gestiona vehículos con los detalles y la documentación necesarios.",
+    "tabs": {
+      "moving": "En movimiento",
+      "idle": "Inactivo",
+      "emergency": "Emergencia"
+    },
+    "addNewVehicle": "Añadir Nuevo Vehículo",
+    "addVehicleDescription": "Rellena los detalles a continuación para registrar un nuevo vehículo en la flota.",
+    "table": {
+      "vehicle": "Vehículo",
+      "status": "Estado",
+      "assignedDriver": "Conductor Asignado",
+      "licensePlate": "Matrícula",
+      "actions": "Acciones"
+    },
+    "noVehiclesFound": "No se encontraron vehículos."
+  },
+  "tracking": {
+    "title": "Rastreo de Ubicación en Tiempo Real",
+    "description": "Rastreo de vehículos en vivo con mapa interactivo.",
+    "vehiclesTitle": "Vehículos",
+    "table": {
+      "vehicle": "Vehículo",
+      "status": "Estado"
+    },
+    "mapAlt": "Mapa de vehículos"
+  },
+  "reports": {
+    "title": "Generación de Informes",
+    "description": "Genera y exporta informes sobre el uso de vehículos, historial de ubicaciones y actividad de los conductores.",
+    "table": {
+      "title": "Título del Informe",
+      "type": "Tipo",
+      "dateGenerated": "Fecha de Generación",
+      "actions": "Acciones"
+    },
+    "types": {
+      "usage": "Uso",
+      "history": "Historial",
+      "activity": "Actividad",
+      "alerts": "Alertas",
+      "maintenance": "Mantenimiento"
+    },
+    "headers": {
+      "id": "ID",
+      "make": "Marca",
+      "model": "Modelo",
+      "driverId": "ID de Conductor",
+      "status": "Estado",
+      "name": "Nombre",
+      "tripsCompleted": "Viajes Completados",
+      "performanceScore": "Puntuación de Rendimiento",
+      "vehicleId": "ID de Vehículo",
+      "timestamp": "Marca de Tiempo",
+      "priority": "Prioridad",
+      "details": "Detalles"
+    }
+  },
+  "emergency": {
+    "title": "Centro de Alertas de Emergencia",
+    "description": "Supervisa y responde a las alertas críticas de los vehículos.",
+    "addNewAlert": "Añadir Nueva Alerta",
+    "addAlertDescription": "Crear manualmente una nueva alerta de emergencia.",
+    "aiAnalysis": {
+      "title": "Resultados del Análisis de IA",
+      "suggestedActions": "ACCIONES SUGERIDAS",
+      "reasoning": "RAZONAMIENTO"
+    },
+     "aiAnalyzer": {
+      "buttonText": "Analizar con IA",
+      "title": "Analizar Alerta de Emergencia",
+      "description": "Usa GenAI para evaluar la situación y recomendar acciones para la alerta {id}.",
+      "incomingDetails": "Detalles de la Alerta Entrante",
+      "vehicle": "Vehículo",
+      "driver": "Conductor",
+      "location": "Ubicación",
+      "analysisComplete": "Análisis de IA Completo",
+      "priority": "PRIORIDAD",
+      "suggestedActions": "ACCIONES SUGERIDAS",
+      "reasoning": "RAZONAMIENTO",
+      "analyzing": "Analizando...",
+      "runAnalysis": "Ejecutar Análisis de IA",
+      "toast": {
+        "analysisFailed": {
+          "title": "Análisis Fallido",
+          "description": "No se pudo obtener una respuesta del modelo de IA."
+        }
+      }
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "description": "Gestiona la configuración de tu cuenta, preferencias y seguridad.",
+    "profile": {
+      "title": "Mi Perfil",
+      "description": "Actualiza tu información personal aquí.",
+      "displayName": "Nombre de Usuario",
+      "displayNamePlaceholder": "Tu Nombre",
+      "emailPlaceholder": "tu@email.com",
+      "emailDescription": "Este es el correo electrónico que usas para iniciar sesión.",
+      "toast": {
+        "title": "Perfil Actualizado",
+        "description": "Tu información de perfil ha sido actualizada exitosamente."
+      },
+      "validation": {
+        "displayNameMin": "El nombre de usuario debe tener al menos 2 caracteres.",
+        "emailInvalid": "Por favor, introduce una dirección de correo electrónico válida."
+      }
+    },
+    "language": {
+      "title": "Idioma y Región",
+      "description": "Establece tu idioma preferido y zona operativa.",
+      "preferredLanguage": "Idioma Preferido",
+      "selectPlaceholder": "Selecciona un idioma",
+      "zoneId": "ID de Zona",
+      "zoneIdDescription": "Esta es la zona geográfica u operativa a la que perteneces.",
+      "saveButton": "Guardar Preferencias",
+      "toast": {
+        "title": "Preferencias Guardadas",
+        "description": "Tu configuración de idioma y región ha sido guardada."
+      }
+    },
+    "security": {
+      "title": "Seguridad",
+      "description": "Gestiona la configuración de seguridad de tu cuenta.",
+      "mfaLabel": "Autenticación de Múltiples Factores (MFA)",
+      "mfaDescription": "Requiere una segunda forma de verificación para proteger tu cuenta.",
+      "mfaAriaLabel": "Activar MFA",
+      "saveButton": "Guardar Configuración de Seguridad",
+      "toast": {
+        "title": "Configuración de Seguridad Actualizada",
+        "description": "Tus preferencias de seguridad han sido guardadas exitosamente."
+      }
+    }
+  },
+    "addDriver": {
+    "form": {
+        "fullName": {
+            "label": "Nombre Completo",
+            "placeholder": "ej. Juan Pérez"
+        },
+        "email": {
+            "label": "Dirección de Correo Electrónico",
+            "placeholder": "ej. juan.perez@example.com"
+        },
+        "phone": {
+            "label": "Número de Teléfono",
+            "placeholder": "ej. (123) 456-7890"
+        },
+        "sector": {
+            "label": "Sector (Opcional)",
+            "placeholder": "ej. Noreste"
+        },
+        "submit": "Añadir Conductor"
+    },
+    "toast": {
+        "title": "Conductor Añadido",
+        "description": "{name} ha sido registrado exitosamente."
+    },
+    "validation": {
+        "nameRequired": "El nombre es obligatorio.",
+        "emailInvalid": "Dirección de correo electrónico no válida.",
+        "phoneRequired": "El número de teléfono es obligatorio."
+    }
+  },
+  "addEmergencyAlert": {
+    "form": {
+      "vehicle": {
+        "label": "Vehículo",
+        "placeholder": "Selecciona un vehículo"
+      },
+      "driver": {
+        "label": "Conductor",
+        "placeholder": "Selecciona un conductor"
+      },
+      "latitude": {
+        "label": "Latitud",
+        "placeholder": "ej. 40.7128"
+      },
+      "longitude": {
+        "label": "Longitud",
+        "placeholder": "ej. -74.0060"
+      },
+      "details": {
+        "label": "Detalles de la Alerta",
+        "placeholder": "Describe la situación de emergencia..."
+      },
+      "priority": {
+        "label": "Prioridad",
+        "placeholder": "Establecer prioridad"
+      },
+      "submit": "Enviar Alerta"
+    },
+    "toast": {
+      "title": "Alerta de Emergencia Añadida",
+      "description": "La nueva alerta de emergencia ha sido registrada exitosamente."
+    },
+    "validation": {
+      "vehicleRequired": "El vehículo es obligatorio.",
+      "driverRequired": "El conductor es obligatorio.",
+      "detailsMin": "Los detalles deben tener al menos 10 caracteres."
+    }
+  },
+  "addVehicle": {
+    "form": {
+      "make": { "label": "Marca", "placeholder": "ej. Toyota" },
+      "model": { "label": "Modelo", "placeholder": "ej. Camry" },
+      "year": { "label": "Año", "placeholder": "ej. 2023" },
+      "plate": { "label": "Número de Matrícula", "placeholder": "ej. AB 123 CD" },
+      "chassis": { "label": "Número de Chasis (VIN)", "placeholder": "Introduce el número de identificación del vehículo" },
+      "insurance": {
+        "title": "Detalles del Seguro",
+        "provider": { "label": "Proveedor", "placeholder": "ej. Allstate" },
+        "policyNo": { "label": "Número de Póliza", "placeholder": "ej. XYZ123456" },
+        "expiresAt": { "label": "Fecha de Vencimiento", "placeholder": "Elige una fecha" }
+      },
+      "submit": "Añadir Vehículo"
+    },
+    "toast": {
+      "addTitle": "Vehículo Añadido",
+      "addDescription": "{make} {model} ha sido registrado exitosamente.",
+      "updateTitle": "Vehículo Actualizado",
+      "updateDescription": "{make} {model} ha sido actualizado exitosamente."
+    },
+    "validation": {
+        "makeRequired": "La marca es obligatoria.",
+        "modelRequired": "El modelo es obligatorio.",
+        "yearInvalid": "Año no válido.",
+        "plateRequired": "El número de matrícula es obligatorio.",
+        "chassisRequired": "El número de chasis es obligatorio.",
+        "insuranceProviderRequired": "El proveedor de seguros es obligatorio.",
+        "policyNoRequired": "El número de póliza es obligatorio.",
+        "expiryDateRequired": "La fecha de vencimiento es obligatoria."
+    }
+  },
+  "driverActions": {
+    "toggleMenu": "Alternar menú",
+    "viewProfile": "Ver Perfil",
+    "message": "Mensaje",
+    "driverId": "ID de Conductor",
+    "phone": "Teléfono",
+    "performance": "Rendimiento",
+    "trips": "Viajes",
+    "avgSpeed": "Vel. Promedio",
+    "credentials": "Credenciales",
+    "expires": "Expira el",
+    "editProfileTitle": "Editar Perfil de Conductor",
+    "editProfileDescription": "Actualizar información de contacto y detalles para {name}.",
+    "legalName": "Nombre Legal",
+    "emailAddress": "Dirección de Correo Electrónico",
+    "phoneNumber": "Número de Teléfono",
+    "assignedSector": "Sector Asignado",
+    "messageDriverTitle": "Enviar Mensaje a {name}",
+    "messageDriverDescription": "Redacta un mensaje directo para enviar al dispositivo del conductor.",
+    "messagePlaceholder": "Escribe tu mensaje aquí...",
+    "sendMessage": "Enviar Mensaje",
+    "toast": {
+      "profileUpdated": {
+        "title": "Perfil Actualizado",
+        "description": "El perfil de {name} ha sido guardado."
+      },
+      "messageSent": {
+        "title": "Mensaje Enviado",
+        "description": "Tu mensaje ha sido enviado a {name}."
+      }
+    }
+  },
+  "vehicleActions": {
+    "toggleMenu": "Alternar menú",
+    "viewDetails": "Ver Detalles",
+    "uploadDocuments": "Subir Documentos",
+    "detailsForLicense": "Detalles para la matrícula {plate}",
+    "status": "Estado",
+    "year": "Año",
+    "chassisNumber": "Número de Chasis",
+    "assignedDriver": "Conductor Asignado",
+    "insuranceInfo": "Información del Seguro",
+    "provider": "Proveedor",
+    "policyNo": "Número de Póliza",
+    "expiresOn": "Expira el",
+    "maintenanceHistory": "Historial de Mantenimiento",
+    "editVehicleTitle": "Editar Vehículo",
+    "editVehicleDescription": "Actualizar los detalles del vehículo con matrícula {plate}.",
+    "uploadDocumentsTitle": "Subir Documentos del Vehículo",
+    "uploadDocumentsDescription": "Subir documentos de registro, seguro u otros para {make} {model}.",
+    "clickToUpload": "Haz clic para subir",
+    "orDragAndDrop": "o arrastra y suelta",
+    "fileTypes": "PDF, PNG, JPG (MÁX. 5MB)"
+  },
+  "common": {
+    "all": "Todos",
+    "na": "N/D",
+    "loading": "Cargando",
+    "view": "Ver",
+    "export": "Exportar",
+    "saveChanges": "Guardar Cambios",
+    "edit": "Editar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "upload": "Subir",
+    "unassigned": "Sin asignar"
+  },
+  "priorities": {
+    "high": "Alta",
+    "medium": "Media",
+    "low": "Baja"
+  },
+  "alertStatuses": {
+    "new": "Nueva",
+    "analyzing": "Analizando",
+    "resolved": "Resuelta"
+  },
+  "vehicleStatuses": {
+    "moving": "En movimiento",
+    "idle": "Inactivo",
+    "emergency": "Emergencia"
+  },
+  "errors": {
+    "title": "Error",
+    "dbNotConnected": {
+        "title": "Base de datos no conectada",
+        "description": "Por favor, conéctate a Firebase para continuar."
+    },
+    "addDriver": "No se pudo añadir el conductor. Por favor, inténtalo de nuevo.",
+    "addAlert": "No se pudo añadir la alerta de emergencia. Por favor, inténtalo de nuevo.",
+    "processVehicle": "No se pudo procesar el vehículo. Por favor, inténtalo de nuevo."
+  }
+}

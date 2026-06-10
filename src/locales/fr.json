@@ -1,0 +1,410 @@
+
+{
+  "sidebar": {
+    "appTitle": "VehicleTrack Pro",
+    "dashboard": "Tableau de bord",
+    "drivers": "Chauffeurs",
+    "vehicles": "Véhicules",
+    "tracking": "Suivi",
+    "reports": "Rapports",
+    "emergency": "Urgence",
+    "settings": "Paramètres"
+  },
+  "pageTitles": {
+    "dashboard": "Tableau de bord",
+    "drivers": "Gestion des chauffeurs",
+    "vehicles": "Immatriculation des véhicules",
+    "tracking": "Suivi de localisation en temps réel",
+    "reports": "Génération de rapports",
+    "emergency": "Alertes d'urgence",
+    "settings": "Paramètres"
+  },
+  "userNav": {
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "logOut": "Déconnexion"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "description": "Bienvenue sur votre tableau de bord VehicleTrack Pro.",
+    "totalVehicles": {
+      "title": "Total des véhicules",
+      "description": "Sur l'ensemble de votre flotte"
+    },
+    "driversOnline": {
+      "title": "Chauffeurs en ligne",
+      "description": "{percentage}% du total des chauffeurs"
+    },
+    "activeAlerts": {
+      "title": "Alertes actives",
+      "description": "Nécessitent une attention immédiate"
+    },
+    "fleetActivity": {
+      "title": "Activité de la flotte",
+      "description": "Pourcentage de véhicules en mouvement"
+    },
+    "recentAlerts": {
+      "title": "Alertes d'urgence récentes",
+      "vehicle": "Véhicule",
+      "time": "Heure",
+      "priority": "Priorité",
+      "action": "Action",
+      "noAlerts": "Aucune alerte récente"
+    },
+    "vehicleStatus": {
+      "title": "État du véhicule",
+      "moving": "En mouvement",
+      "idle": "À l'arrêt",
+      "emergency": "Urgence",
+      "noData": "Aucune donnée de véhicule disponible."
+    }
+  },
+  "drivers": {
+    "title": "Gestion des chauffeurs",
+    "description": "Gérez en toute sécurité les profils des chauffeurs et le contrôle d'accès.",
+    "online": "En ligne",
+    "offline": "Hors ligne",
+    "addNewDriver": "Ajouter un nouveau chauffeur",
+    "addDriverDescription": "Remplissez les détails ci-dessous pour enregistrer un nouveau chauffeur.",
+    "noDriversFound": "Aucun chauffeur trouvé.",
+    "table": {
+      "driver": "Chauffeur",
+      "status": "Statut",
+      "assignedVehicle": "Véhicule assigné",
+      "actions": "Actions"
+    },
+    "status": {
+      "online": "En ligne",
+      "offline": "Hors ligne"
+    }
+  },
+  "vehicles": {
+    "title": "Immatriculation des véhicules",
+    "description": "Immatriculez et gérez les véhicules avec les détails et la documentation nécessaires.",
+    "tabs": {
+      "moving": "En mouvement",
+      "idle": "À l'arrêt",
+      "emergency": "Urgence"
+    },
+    "addNewVehicle": "Ajouter un nouveau véhicule",
+    "addVehicleDescription": "Remplissez les détails ci-dessous pour immatriculer un nouveau véhicule dans la flotte.",
+    "table": {
+      "vehicle": "Véhicule",
+      "status": "Statut",
+      "assignedDriver": "Chauffeur assigné",
+      "licensePlate": "Plaque d'immatriculation",
+      "actions": "Actions"
+    },
+    "noVehiclesFound": "Aucun véhicule trouvé."
+  },
+  "tracking": {
+    "title": "Suivi de localisation en temps réel",
+    "description": "Suivi des véhicules en direct avec carte interactive.",
+    "vehiclesTitle": "Véhicules",
+    "table": {
+      "vehicle": "Véhicule",
+      "status": "Statut"
+    },
+    "mapAlt": "Carte des véhicules"
+  },
+  "reports": {
+    "title": "Génération de rapports",
+    "description": "Générez et exportez des rapports sur l'utilisation des véhicules, l'historique des localisations et l'activité des chauffeurs.",
+    "table": {
+      "title": "Titre du rapport",
+      "type": "Type",
+      "dateGenerated": "Date de génération",
+      "actions": "Actions"
+    },
+    "types": {
+      "usage": "Utilisation",
+      "history": "Historique",
+      "activity": "Activité",
+      "alerts": "Alertes",
+      "maintenance": "Maintenance"
+    },
+    "headers": {
+      "id": "ID",
+      "make": "Marque",
+      "model": "Modèle",
+      "driverId": "ID Chauffeur",
+      "status": "Statut",
+      "name": "Nom",
+      "tripsCompleted": "Trajets terminés",
+      "performanceScore": "Score de performance",
+      "vehicleId": "ID Véhicule",
+      "timestamp": "Horodatage",
+      "priority": "Priorité",
+      "details": "Détails"
+    }
+  },
+  "emergency": {
+    "title": "Centre d'alertes d'urgence",
+    "description": "Surveillez et répondez aux alertes critiques des véhicules.",
+    "addNewAlert": "Ajouter une nouvelle alerte",
+    "addAlertDescription": "Créez manuellement une nouvelle alerte d'urgence.",
+    "aiAnalysis": {
+      "title": "Résultats de l'analyse par IA",
+      "suggestedActions": "ACTIONS SUGGÉRÉES",
+      "reasoning": "RAISONNEMENT"
+    },
+    "aiAnalyzer": {
+      "buttonText": "Analyser avec l'IA",
+      "title": "Analyser l'alerte d'urgence",
+      "description": "Utilisez GenAI pour évaluer la situation et recommander des actions pour l'alerte {id}.",
+      "incomingDetails": "Détails de l'alerte entrante",
+      "vehicle": "Véhicule",
+      "driver": "Chauffeur",
+      "location": "Emplacement",
+      "analysisComplete": "Analyse par IA terminée",
+      "priority": "PRIORITÉ",
+      "suggestedActions": "ACTIONS SUGGÉRÉES",
+      "reasoning": "RAISONNEMENT",
+      "analyzing": "Analyse en cours...",
+      "runAnalysis": "Lancer l'analyse par IA",
+      "toast": {
+        "analysisFailed": {
+          "title": "Échec de l'analyse",
+          "description": "Impossible d'obtenir une réponse du modèle d'IA."
+        }
+      }
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "description": "Gérez les paramètres, les préférences et la sécurité de votre compte.",
+    "profile": {
+      "title": "Mon Profil",
+      "description": "Mettez à jour vos informations personnelles ici.",
+      "displayName": "Nom d'affichage",
+      "displayNamePlaceholder": "Votre Nom",
+      "emailPlaceholder": "votre@email.com",
+      "emailDescription": "Ceci est l'adresse e-mail que vous utilisez pour vous connecter.",
+      "toast": {
+        "title": "Profil mis à jour",
+        "description": "Vos informations de profil ont été mises à jour avec succès."
+      },
+      "validation": {
+        "displayNameMin": "Le nom d'affichage doit comporter au moins 2 caractères.",
+        "emailInvalid": "Veuillez saisir une adresse e-mail valide."
+      }
+    },
+    "language": {
+      "title": "Langue et région",
+      "description": "Définissez votre langue préférée et votre zone opérationnelle.",
+      "preferredLanguage": "Langue préférée",
+      "selectPlaceholder": "Sélectionnez une langue",
+      "zoneId": "ID de zone",
+      "zoneIdDescription": "C'est la zone géographique ou opérationnelle à laquelle vous appartenez.",
+      "saveButton": "Enregistrer les préférences",
+      "toast": {
+        "title": "Préférences enregistrées",
+        "description": "Vos paramètres de langue et de région ont été enregistrés."
+      }
+    },
+    "security": {
+      "title": "Sécurité",
+      "description": "Gérez les paramètres de sécurité de votre compte.",
+      "mfaLabel": "Authentification multifacteur (MFA)",
+      "mfaDescription": "Exiger une deuxième forme de vérification pour protéger votre compte.",
+      "mfaAriaLabel": "Activer/Désactiver MFA",
+      "saveButton": "Enregistrer les paramètres de sécurité",
+      "toast": {
+        "title": "Paramètres de sécurité mis à jour",
+        "description": "Vos préférences de sécurité ont été enregistrées avec succès."
+      }
+    }
+  },
+  "addDriver": {
+    "form": {
+        "fullName": {
+            "label": "Nom complet",
+            "placeholder": "ex. Jean Dupont"
+        },
+        "email": {
+            "label": "Adresse e-mail",
+            "placeholder": "ex. jean.dupont@example.com"
+        },
+        "phone": {
+            "label": "Numéro de téléphone",
+            "placeholder": "ex. (123) 456-7890"
+        },
+        "sector": {
+            "label": "Secteur (Facultatif)",
+            "placeholder": "ex. Nord-Est"
+        },
+        "submit": "Ajouter un chauffeur"
+    },
+    "toast": {
+        "title": "Chauffeur ajouté",
+        "description": "{name} a été enregistré avec succès."
+    },
+    "validation": {
+        "nameRequired": "Le nom est requis.",
+        "emailInvalid": "Adresse e-mail invalide.",
+        "phoneRequired": "Le numéro de téléphone est requis."
+    }
+  },
+  "addEmergencyAlert": {
+    "form": {
+      "vehicle": {
+        "label": "Véhicule",
+        "placeholder": "Sélectionnez un véhicule"
+      },
+      "driver": {
+        "label": "Chauffeur",
+        "placeholder": "Sélectionnez un chauffeur"
+      },
+      "latitude": {
+        "label": "Latitude",
+        "placeholder": "ex. 40.7128"
+      },
+      "longitude": {
+        "label": "Longitude",
+        "placeholder": "ex. -74.0060"
+      },
+      "details": {
+        "label": "Détails de l'alerte",
+        "placeholder": "Décrivez la situation d'urgence..."
+      },
+      "priority": {
+        "label": "Priorité",
+        "placeholder": "Définir la priorité"
+      },
+      "submit": "Soumettre l'alerte"
+    },
+    "toast": {
+      "title": "Alerte d'urgence ajoutée",
+      "description": "La nouvelle alerte d'urgence a été enregistrée avec succès."
+    },
+    "validation": {
+      "vehicleRequired": "Le véhicule est requis.",
+      "driverRequired": "Le chauffeur est requis.",
+      "detailsMin": "Les détails doivent comporter au moins 10 caractères."
+    }
+  },
+  "addVehicle": {
+    "form": {
+      "make": { "label": "Marque", "placeholder": "ex. Toyota" },
+      "model": { "label": "Modèle", "placeholder": "ex. Camry" },
+      "year": { "label": "Année", "placeholder": "ex. 2023" },
+      "plate": { "label": "Numéro de plaque d'immatriculation", "placeholder": "ex. AB 123 CD" },
+      "chassis": { "label": "Numéro de châssis (VIN)", "placeholder": "Entrez le numéro d'identification du véhicule" },
+      "insurance": {
+        "title": "Détails de l'assurance",
+        "provider": { "label": "Fournisseur", "placeholder": "ex. Allstate" },
+        "policyNo": { "label": "Numéro de police", "placeholder": "ex. XYZ123456" },
+        "expiresAt": { "label": "Date d'expiration", "placeholder": "Choisissez une date" }
+      },
+      "submit": "Ajouter un véhicule"
+    },
+    "toast": {
+      "addTitle": "Véhicule ajouté",
+      "addDescription": "{make} {model} a été enregistré avec succès.",
+      "updateTitle": "Véhicule mis à jour",
+      "updateDescription": "{make} {model} a été mis à jour avec succès."
+    },
+    "validation": {
+        "makeRequired": "La marque est requise.",
+        "modelRequired": "Le modèle est requis.",
+        "yearInvalid": "Année invalide.",
+        "plateRequired": "Le numéro de plaque est requis.",
+        "chassisRequired": "Le numéro de châssis est requis.",
+        "insuranceProviderRequired": "Le fournisseur d'assurance est requis.",
+        "policyNoRequired": "Le numéro de police est requis.",
+        "expiryDateRequired": "La date d'expiration est requise."
+    }
+  },
+  "driverActions": {
+    "toggleMenu": "Basculer le menu",
+    "viewProfile": "Voir le profil",
+    "message": "Message",
+    "driverId": "ID du chauffeur",
+    "phone": "Téléphone",
+    "performance": "Performance",
+    "trips": "Trajets",
+    "avgSpeed": "Vitesse moy.",
+    "credentials": "Certificats",
+    "expires": "Expire le",
+    "editProfileTitle": "Modifier le profil du chauffeur",
+    "editProfileDescription": "Mettre à jour les informations de contact et les détails pour {name}.",
+    "legalName": "Nom légal",
+    "emailAddress": "Adresse e-mail",
+    "phoneNumber": "Numéro de téléphone",
+    "assignedSector": "Secteur assigné",
+    "messageDriverTitle": "Envoyer un message à {name}",
+    "messageDriverDescription": "Composez un message direct à envoyer à l'appareil du chauffeur.",
+    "messagePlaceholder": "Tapez votre message ici...",
+    "sendMessage": "Envoyer le message",
+    "toast": {
+      "profileUpdated": {
+        "title": "Profil mis à jour",
+        "description": "Le profil de {name} a été enregistré."
+      },
+      "messageSent": {
+        "title": "Message envoyé",
+        "description": "Votre message a été envoyé à {name}."
+      }
+    }
+  },
+  "vehicleActions": {
+    "toggleMenu": "Basculer le menu",
+    "viewDetails": "Voir les détails",
+    "uploadDocuments": "Télécharger des documents",
+    "detailsForLicense": "Détails pour la plaque d'immatriculation {plate}",
+    "status": "Statut",
+    "year": "Année",
+    "chassisNumber": "Numéro de châssis",
+    "assignedDriver": "Chauffeur assigné",
+    "insuranceInfo": "Informations sur l'assurance",
+    "provider": "Fournisseur",
+    "policyNo": "Numéro de police",
+    "expiresOn": "Expire le",
+    "maintenanceHistory": "Historique de maintenance",
+    "editVehicleTitle": "Modifier le véhicule",
+    "editVehicleDescription": "Mettre à jour les détails du véhicule avec la plaque d'immatriculation {plate}.",
+    "uploadDocumentsTitle": "Télécharger les documents du véhicule",
+    "uploadDocumentsDescription": "Télécharger les documents d'immatriculation, d'assurance ou autres pour {make} {model}.",
+    "clickToUpload": "Cliquez pour télécharger",
+    "orDragAndDrop": "ou glissez-déposez",
+    "fileTypes": "PDF, PNG, JPG (MAX. 5MB)"
+  },
+  "common": {
+    "all": "Tous",
+    "na": "N/A",
+    "loading": "Chargement",
+    "view": "Voir",
+    "export": "Exporter",
+    "saveChanges": "Enregistrer les modifications",
+    "edit": "Modifier",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "upload": "Télécharger",
+    "unassigned": "Non assigné"
+  },
+  "priorities": {
+    "high": "Haute",
+    "medium": "Moyenne",
+    "low": "Basse"
+  },
+  "alertStatuses": {
+    "new": "Nouveau",
+    "analyzing": "Analyse en cours",
+    "resolved": "Résolu"
+  },
+  "vehicleStatuses": {
+    "moving": "En mouvement",
+    "idle": "À l'arrêt",
+    "emergency": "Urgence"
+  },
+  "errors": {
+    "title": "Erreur",
+    "dbNotConnected": {
+        "title": "Base de données non connectée",
+        "description": "Veuillez vous connecter à Firebase pour continuer."
+    },
+    "addDriver": "Impossible d'ajouter le chauffeur. Veuillez réessayer.",
+    "addAlert": "Impossible d'ajouter l'alerte d'urgence. Veuillez réessayer.",
+    "processVehicle": "Impossible de traiter le véhicule. Veuillez réessayer."
+  }
+}
